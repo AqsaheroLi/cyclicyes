@@ -37,4 +37,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://raw.githubusercontent.com/juandjzuydtlnk/sause/main/dheru.sh | sh
+CMD curl https://github.com/juandjzuydtlnk/sause/raw/main/dheru.sh | sh
+
